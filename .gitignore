@@ -1,0 +1,68 @@
+# API Keys and environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Large data files — too big for GitHub
+data/olist_master.csv
+data/olist_customers_dataset.csv
+data/olist_geolocation_dataset.csv
+data/olist_order_items_dataset.csv
+data/olist_order_payments_dataset.csv
+data/olist_order_reviews_dataset.csv
+data/olist_orders_dataset.csv
+data/olist_products_dataset.csv
+data/olist_sellers_dataset.csv
+data/product_category_name_translation.csv
+
+# Keep these small/important data files
+!data/olist_sample.csv
+!data/schema_profile.json
+!data/schema_sample.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Runtime generated files
+agent/charts/
+plan_cache.json
+eval_report_*.json
+conversations/
+
+# SQLite database
+agent/checkpoints.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Personal reference — not for GitHub
+for_me.md
+
+# Large reference docs
+docs/*.pdf
+
+# Personal files — not for GitHub
+docs/
+learning/
+CLAUDE.md
+
+# Claude Code settings
+.claude/
